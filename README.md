@@ -1,2 +1,31 @@
 # text-diff
-Word level diffing for plain text
+
+Produces readable word-level diffs between two pieces of text.
+
+## Why
+
+The existing libraries were either abandoned or pulled in a large dependency tree.
+
+## Install
+
+```bash
+pip install text-diff
+```
+
+## Usage
+
+```python
+from text_diff import textDiff
+
+result = textDiff("example")
+print(result)
+```
+
+## Notes
+
+- No runtime dependencies outside the standard library.
+- Tested on Python 3.9 and newer.
+
+## License
+
+MIT
